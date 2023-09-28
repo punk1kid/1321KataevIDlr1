@@ -14,9 +14,9 @@ public:
     void AddToBegining(int value);                      //2.добавление в начало списка
     void DelLast();                                     //3.удаление последнего элемента
     void DelFirst();                                    //4.удаление первого элемента
-    void AddByIndex(int index, int value);              //5.добавление элемента по индексу (перед элементом по индексу) ПРОПИСАТЬ ИСКЛЮЧЕНИЯ
+    void AddByIndex(int index, int value);              //5.добавление элемента по индексу (перед элементом по индексу) 
     int GetByIndex(int index);                          //6.получение элемента по индексу
-    void DelByIndex(int index);                         //7.удаление элемента по индексу ПРОПИСАТЬ ИСКЛЮЧЕНИЯ
+    void DelByIndex(int index);                         //7.удаление элемента по индексу 
     int GetSize() { return Size; };                     //8.получение размера списка
     void DelAll();                                      //9.удаление всех элементов списка
     void RewriteNode(int index, int value);             //10.замена элемента по индексу на передаваемый элемент
